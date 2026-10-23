@@ -56,6 +56,12 @@ background:
     );
     border: 2px solid #98704a;
     border-radius: 5px 12px 12px 5px;
+    
+    box-shadow:
+        5px 6px 0 #1b100b,
+        10px 12px 22px rgba(0, 0, 0, 0.55),
+        inset 2px 0 5px rgba(255, 220, 160, 0.12);
+
 }
 .cover-border {
     min-height: 510px;
