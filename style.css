@@ -187,17 +187,40 @@ background:
 /* ===== THE OLD LETTER PAGE ===== */
 
 
+
 .letter-page {
     margin-top: 18px;
     padding: 32px 24px;
 
     /* Dark outer line */
     border: 1px solid #24170f;
-    border-radius: 3px;
+    border-radius: 18px 12px 20px 14px;
 
-    /* Two brown lines and one dark outer line */
+    /* Two brown border lines */
     outline: 3px double #80552f;
     outline-offset: -8px;
+
+    /* Aged parchment with darker brown edges */
+    background:
+        linear-gradient(
+            90deg,
+            #9b7047 0%,
+            #c4a477 5%,
+            #ead7ad 14%,
+            #f1dfb9 50%,
+            #e4cca0 86%,
+            #bd9462 95%,
+            #89603b 100%
+        );
+
+    color: #493322;
+
+    box-shadow:
+        inset 0 0 22px rgba(75, 45, 20, 0.25),
+        0 0 0 2px #3b2618,
+        3px 5px 12px rgba(0, 0, 0, 0.35);
+}
+
 
     /* Aged parchment with darker brown edges */
     background:
