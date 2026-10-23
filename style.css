@@ -147,12 +147,12 @@ body {
     margin-top: 28px;
     padding: 12px 18px;
 
-    border: 1px solid #c4a16d;
+    border: 1px solid #59351f;
     border-radius: 3px;
 
-    background: rgba(30, 17, 11, 0.45);
+    background: #59351f;
 
-    color: #f0d7a8;
+    color: #f1dfb9;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 13px;
     letter-spacing: 0.5px;
