@@ -61,6 +61,7 @@ body {
         2px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
+
 .cover-border {
     min-height: 510px;
     padding: 45px 22px;
@@ -72,23 +73,12 @@ body {
 
     text-align: center;
 
-    border: 1px solid #b18a5b;
-    outline: 1px solid #60422d;
-    outline-offset: -7px;
-    
-    box-shadow:
-        inset 0 0 18px rgba(20, 10, 5, 0.35);
+    border: 1px solid #80552f;
+    border-radius: 8px;
 
+    background: transparent;
 
-    background:
-        radial-gradient(
-            ellipse at center,
-            #70472e 0%,
-            #4b2d20 58%,
-            #321d15 100%
-        );
-
-    color: #f0d7a8;
+    color: #493322;
 }
 
 .cover-small {
