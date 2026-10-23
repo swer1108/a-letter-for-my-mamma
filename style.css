@@ -81,12 +81,14 @@ body {
     color: #493322;
 }
 
+
 .cover-small {
     font-size: 10px;
     letter-spacing: 3px;
     line-height: 1.8;
-    color: #d5b88a;
+    color: #493322;
 }
+
 
 .cover-heart {
     margin: 32px 0 18px;
