@@ -25,3 +25,107 @@ body {
     font-family: Georgia, "Times New Roman", serif;
     color: #382719;
 }
+
+/* ===== OUR ANTIQUE BOOK COVER ===== */
+
+.book {
+    width: 100%;
+    max-width: 390px;
+    perspective: 1200px;
+}
+
+.book-cover {
+    position: relative;
+    padding: 12px;
+
+    background: #21130e;
+
+    border: 2px solid #765236;
+    border-radius: 5px 12px 12px 5px;
+
+    box-shadow:
+        8px 10px 0 #100a08,
+        14px 18px 30px rgba(0, 0, 0, 0.65),
+        inset 2px 0 5px rgba(255, 220, 160, 0.15);
+}
+
+.cover-border {
+    min-height: 510px;
+    padding: 45px 22px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border: 1px solid #b18a5b;
+    outline: 1px solid #60422d;
+    outline-offset: -7px;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            #70472e 0%,
+            #4b2d20 58%,
+            #321d15 100%
+        );
+
+    color: #f0d7a8;
+}
+
+.cover-small {
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    color: #d5b88a;
+}
+
+.cover-heart {
+    margin: 32px 0 18px;
+
+    font-size: 36px;
+    color: #c49acb;
+
+    text-shadow:
+        0 0 12px rgba(196, 154, 203, 0.45);
+}
+
+.cover-border h1 {
+    font-size: 43px;
+    line-height: 1.2;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+    color: #f4dfb8;
+
+    text-shadow:
+        2px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cover-divider {
+    width: 100px;
+    height: 1px;
+
+    margin: 24px 0;
+
+    background: #c4a16d;
+}
+
+.cover-subtitle {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.8;
+    color: #e1c8a2;
+}
+
+.cover-date {
+    margin-top: 45px;
+
+    font-size: 11px;
+    font-style: italic;
+    letter-spacing: 1px;
+
+    color: #c7a77e;
+}
