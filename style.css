@@ -183,3 +183,63 @@ background:
 
     transform: translateY(-2px);
 }
+
+/* ===== THE OLD LETTER PAGE ===== */
+
+.letter-page {
+    margin-top: 18px;
+    padding: 32px 24px;
+
+    border: 1px solid #b89a70;
+    border-radius: 3px;
+
+    background:
+        radial-gradient(
+            ellipse at top left,
+            #fff4d9,
+            transparent 65%
+        ),
+        linear-gradient(
+            135deg,
+            #ead7ad,
+            #d7bd8d
+        );
+
+    color: #493322;
+    box-shadow:
+        inset 0 0 18px rgba(75, 45, 20, 0.15),
+        3px 5px 12px rgba(0, 0, 0, 0.25);
+}
+
+.letter-heading {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #806044;
+}
+
+.letter-page h2 {
+    margin-top: 18px;
+
+    text-align: center;
+    font-size: 29px;
+    font-weight: normal;
+
+    color: #533522;
+}
+
+.letter-divider {
+    width: 75px;
+    height: 1px;
+    margin: 20px auto;
+
+    background: #a78351;
+}
+
+.letter-placeholder {
+    font-size: 15px;
+    line-height: 1.9;
+    font-style: italic;
+    text-align: center;
+}
