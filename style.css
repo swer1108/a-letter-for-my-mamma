@@ -251,13 +251,17 @@ background:
 }
 
 
+
 .letter-heading {
     text-align: center;
     white-space: nowrap;
     font-size: 12px;
     letter-spacing: 0.5px;
     color: #806044;
+
+    margin-top: 10px;
 }
+
 
 
 .letter-page h2 {
