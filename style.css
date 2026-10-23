@@ -437,3 +437,73 @@ body {
         opacity: 0;
     }
 }
+
+/* ===== HEARTS ON MAMMA'S BOOK COVER ===== */
+
+.cover-love-hearts {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.heart-cluster {
+    position: relative;
+    width: 125px;
+    height: 105px;
+}
+
+.heart-cluster span {
+    position: absolute;
+    font-size: 68px;
+    line-height: 1;
+    text-shadow: 1px 2px 2px rgba(60, 35, 20, 0.15);
+}
+
+.left-hearts span:nth-child(1) {
+    color: #59351f;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-18deg);
+}
+
+.left-hearts span:nth-child(2) {
+    color: #b98b61;
+    left: 40px;
+    bottom: 20px;
+    transform: rotate(12deg);
+}
+
+.left-hearts span:nth-child(3) {
+    color: #805333;
+    left: 55px;
+    bottom: -2px;
+    transform: rotate(22deg);
+}
+
+.right-hearts span:nth-child(1) {
+    color: #b98b61;
+    right: 0;
+    bottom: 0;
+    transform: rotate(18deg);
+}
+
+.right-hearts span:nth-child(2) {
+    color: #59351f;
+    right: 40px;
+    bottom: 20px;
+    transform: rotate(-12deg);
+}
+
+.right-hearts span:nth-child(3) {
+    color: #805333;
+    right: 55px;
+    bottom: -2px;
+    transform: rotate(-22deg);
+}
