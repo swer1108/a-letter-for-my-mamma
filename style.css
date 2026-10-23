@@ -108,6 +108,9 @@ background:
 
     text-shadow:
         0 0 12px rgba(196, 154, 203, 0.45);
+    
+    transform: rotate(-8deg);
+
 }
 
 .cover-border h1 {
