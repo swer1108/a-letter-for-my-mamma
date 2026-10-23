@@ -250,13 +250,15 @@ background:
         3px 5px 12px rgba(0, 0, 0, 0.25);
 }
 
+
 .letter-heading {
     text-align: center;
-    font-size: 11px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 12px;
+    letter-spacing: 0.5px;
     color: #806044;
 }
+
 
 .letter-page h2 {
     margin-top: 18px;
@@ -268,13 +270,11 @@ background:
     color: #533522;
 }
 
-.letter-divider {
-    width: 75px;
-    height: 1px;
-    margin: 20px auto;
 
-    background: #a78351;
+.letter-divider {
+    display: none;
 }
+
 
 .letter-placeholder {
     font-size: 15px;
