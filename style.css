@@ -365,17 +365,19 @@ background:
     z-index: 1;
 }
 
+
 .floating-love span {
     position: absolute;
-    bottom: -35px;
+    bottom: -45px;
 
     color: #80552f;
     opacity: 0;
 
-    font-size: 17px;
+    font-size: 30px;
 
-    animation: floatingHearts 12s linear infinite;
+    animation: floatingHearts 7s linear infinite;
 }
+
 
 .floating-love span:nth-child(1) {
     left: 8%;
@@ -425,22 +427,23 @@ background:
     color: #b18a5b;
 }
 
+
 @keyframes floatingHearts {
     0% {
-        transform: translateY(0) rotate(0deg);
+        transform: translateY(0) scale(0.8) rotate(0deg);
         opacity: 0;
     }
 
-    15% {
-        opacity: 0.65;
+    12% {
+        opacity: 0.8;
     }
 
     80% {
-        opacity: 0.45;
+        opacity: 0.65;
     }
 
     100% {
-        transform: translateY(-480px) rotate(25deg);
+        transform: translateY(-480px) scale(1.15) rotate(25deg);
         opacity: 0;
     }
 }
