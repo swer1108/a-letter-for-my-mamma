@@ -150,3 +150,36 @@ background:
 
     color: #c7a77e;
 }
+
+/* ===== OPEN MY LETTER BUTTON ===== */
+
+.open-book {
+    margin-top: 28px;
+    padding: 12px 18px;
+
+    border: 1px solid #c4a16d;
+    border-radius: 3px;
+
+    background: rgba(30, 17, 11, 0.45);
+
+    color: #f0d7a8;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+}
+
+.open-book:hover {
+    background: rgba(196, 161, 109, 0.18);
+
+    box-shadow:
+        0 0 12px rgba(196, 161, 109, 0.2);
+
+    transform: translateY(-2px);
+}
