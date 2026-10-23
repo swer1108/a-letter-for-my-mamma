@@ -253,6 +253,7 @@ background:
 
 
 
+
 .letter-heading {
     text-align: center;
     white-space: nowrap;
@@ -260,14 +261,10 @@ background:
     letter-spacing: 0.5px;
     color: #806044;
 
-    position: relative;
-    top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 18px;
+    position: static;
 }
-
-
-
-
 
 .letter-page h2 {
     margin-top: 18px;
