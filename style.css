@@ -243,3 +243,33 @@ background:
     font-style: italic;
     text-align: center;
 }
+
+/* ===== WORDS FROM MY HEART ===== */
+
+.comfort-letter {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.9;
+    color: #493322;
+}
+
+.comfort-intro {
+    margin-bottom: 16px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.comfort-points {
+    padding-left: 22px;
+    list-style-type: disc;
+}
+
+.comfort-points li {
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.comfort-points li::marker {
+    color: #9a7448;
+    font-size: 14px;
+}
