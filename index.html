@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +38,7 @@
             </div>
         </section>
 
-        <!-- OUR OLD PARCHMENT LETTER PAGE -->
+        <!-- OUR COMFORTING LETTER PAGE -->
         <section class="letter-page" id="letterPage" hidden>
 
             <!-- LOVE DECORATION -->
@@ -95,8 +92,16 @@
 
             </div>
 
+            <!-- NEXT PAGE BUTTON -->
+            <div class="page-navigation">
+                <button id="nextPage">
+                    Next Page 🌙 →
+                </button>
+            </div>
+
         </section>
-                <!-- OUR GOODNIGHT PAGE -->
+
+        <!-- OUR GOODNIGHT PAGE -->
         <section class="letter-page goodnight-page" id="goodnightPage" hidden>
 
             <div class="love-decoration">
@@ -126,15 +131,23 @@
 
     </main>
 
-    <!-- OPEN THE BOOK -->
+    <!-- PAGE NAVIGATION -->
     <script>
         const openBook = document.getElementById("openBook");
         const bookCover = document.getElementById("bookCover");
         const letterPage = document.getElementById("letterPage");
+        const goodnightPage = document.getElementById("goodnightPage");
+        const nextPage = document.getElementById("nextPage");
 
         openBook.addEventListener("click", function () {
             bookCover.hidden = true;
             letterPage.hidden = false;
+        });
+
+        nextPage.addEventListener("click", function () {
+            letterPage.hidden = true;
+            goodnightPage.hidden = false;
+            window.scrollTo(0, 0);
         });
     </script>
 
