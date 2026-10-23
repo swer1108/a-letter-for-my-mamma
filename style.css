@@ -1,0 +1,27 @@
+
+/* ===== OUR OLD RUGGED LOVE BOOK ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px;
+
+    background:
+        radial-gradient(
+            ellipse at top,
+            #4b315f 0%,
+            #21162f 48%,
+            #100c19 100%
+        );
+
+    font-family: Georgia, "Times New Roman", serif;
+    color: #382719;
+}
